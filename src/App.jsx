@@ -25,13 +25,13 @@ export const App = () => {
             <h1>Vite + React</h1>
             <p>count is { counter }</p>
             <div className="card">
-                <button onClick={ () => dispatch( increment() ) } className="btn">
+                <button onClick={ () => dispatch( increment() ) }>
                     Increment
                 </button>
-                <button onClick={ () => dispatch( decrement() ) } className="btn">
+                <button onClick={ () => dispatch( decrement() ) }>
                     Decrement
                 </button>
-                <button onClick={ () => dispatch( incrementByAmount(2) ) } className="btn">
+                <button onClick={ () => dispatch( incrementByAmount(2) ) }>
                     Increment by 2
                 </button>
             </div>
