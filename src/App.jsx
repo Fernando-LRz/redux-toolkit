@@ -6,7 +6,7 @@ import viteLogo from '/vite.svg';
 
 import './App.css';
 
-const App = () => {
+export const App = () => {
     
     const { counter } = useSelector(state => state.counter);
     const dispatch = useDispatch();
@@ -38,5 +38,3 @@ const App = () => {
         </>
     );
 };
-
-export default App;
